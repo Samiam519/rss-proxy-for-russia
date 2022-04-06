@@ -1,10 +1,11 @@
-import Parser from "rss-parser";
-import express from 'express';
-import RSS from "rss";
-import moment from "moment";
-import cheerio from 'cheerio';
+import Parser from "rss-parser"
+import express from 'express'
+import RSS from "rss"
+import moment from "moment"
+import cheerio from 'cheerio'
 const app = express()
-import request from 'request-promise';
+import request from 'request-promise'
+import analytics from 'analytics'
 
 const port = 2096
 

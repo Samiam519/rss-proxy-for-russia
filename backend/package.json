@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@analytics/google-analytics": "^0.5.3",
+    "analytics": "^0.8.1",
     "cheerio": "^1.0.0-rc.10",
     "express": "^4.17.3",
     "moment": "^2.29.1",
